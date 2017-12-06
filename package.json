@@ -1,7 +1,7 @@
 {
   "name": "ansi-colors-lazy",
   "description": "Lazyily loaded collection of ansi colors and styles.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/doowb/ansi-colors-lazy",
   "author": "Brian Woodward (https://github.com/doowb)",
   "repository": "doowb/ansi-colors-lazy",
@@ -50,6 +50,49 @@
   },
   "devDependencies": {
     "mocha": "*"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": [
+        "ansi-bgblack",
+        "ansi-bgblue",
+        "ansi-bgcyan",
+        "ansi-bggreen",
+        "ansi-bgmagenta",
+        "ansi-bgred",
+        "ansi-bgwhite",
+        "ansi-bgyellow",
+        "ansi-black",
+        "ansi-blue",
+        "ansi-bold",
+        "ansi-cyan",
+        "ansi-dim",
+        "ansi-gray",
+        "ansi-green",
+        "ansi-grey",
+        "ansi-hidden",
+        "ansi-inverse",
+        "ansi-italic",
+        "ansi-magenta",
+        "ansi-red",
+        "ansi-reset",
+        "ansi-strikethrough",
+        "ansi-underline",
+        "ansi-white",
+        "ansi-yellow"
+      ]
+    }
   },
   "keywords": [
     "ansi-bgblack",
@@ -104,48 +147,5 @@
     "underline",
     "white",
     "yellow"
-  ],
-  "verb": {
-    "toc": false,
-    "layout": "default",
-    "tasks": [
-      "readme"
-    ],
-    "plugins": [
-      "gulp-format-md"
-    ],
-    "lint": {
-      "reflinks": true
-    },
-    "related": {
-      "list": [
-        "ansi-bgblack",
-        "ansi-bgblue",
-        "ansi-bgcyan",
-        "ansi-bggreen",
-        "ansi-bgmagenta",
-        "ansi-bgred",
-        "ansi-bgwhite",
-        "ansi-bgyellow",
-        "ansi-black",
-        "ansi-blue",
-        "ansi-bold",
-        "ansi-cyan",
-        "ansi-dim",
-        "ansi-gray",
-        "ansi-green",
-        "ansi-grey",
-        "ansi-hidden",
-        "ansi-inverse",
-        "ansi-italic",
-        "ansi-magenta",
-        "ansi-red",
-        "ansi-reset",
-        "ansi-strikethrough",
-        "ansi-underline",
-        "ansi-white",
-        "ansi-yellow"
-      ]
-    }
-  }
+  ]
 }
